@@ -1,0 +1,13 @@
+{
+  "name": "system-design-labs",
+  "version": "1.0.0",
+  "description": "POCs for system design concepts",
+  "scripts": {
+    "start:01": "ts-node 01-connection-pool-bounded-queue/src/index.ts"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "ts-node": "^10.9.0",
+    "typescript": "^5.0.0"
+  }
+}
