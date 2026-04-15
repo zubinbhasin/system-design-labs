@@ -180,3 +180,7 @@ After each move, increment the relevant counters. If any counter reaches `N`, th
 | Check only current player | O(N²) |
 | Check only affected row/col/diag | O(N) |
 | Incremental count maps | O(1) per move |
+
+## TODO
+
+- [ ] Undo functionality — allow players to revert the last move (consider a move stack on `Game`)
